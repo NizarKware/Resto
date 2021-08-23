@@ -294,39 +294,39 @@ header .icons #menu-bars{
     font-size: 2.5rem;
 }
 
-.Services .row{
+.About .row{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
     align-items: center;
 }
 
-.Services .row .image{
+.About .row .image{
     flex:1 1 45rem;
 }
 
-.Services .row .image img{ 
+.About .row .image img{ 
     width: 100%;
 }
 
-.Services .row .content{
+.About .row .content{
     flex:1 1 45rem;
 }
 
-.Services .row .content h3{
+.About .row .content h3{
     color:var(--black);
     font-size: 4rem;
     padding:.5rem 0;
 }
 
-.Services .row .content p{
+.About .row .content p{
     color:var(--light-color);
     font-size: 1.5rem;
     padding:.5rem 0;
     line-height: 2;
 }
 
-.Services .row .content .icons-container{
+.About .row .content .icons-container{
     display: flex;
     gap:1rem;
     flex-wrap: wrap;
@@ -334,7 +334,7 @@ header .icons #menu-bars{
     margin-top: .5rem;
 }
 
-.Services .row .content .icons-container .icons{
+.About .row .content .icons-container .icons{
     background:#eee;
     border-radius: .5rem;
     border:.1rem solid rgba(0,0,0,.2);
@@ -346,12 +346,12 @@ header .icons #menu-bars{
     padding:1.5rem 1rem;
 }
 
-.Services .row .content .icons-container .icons i{
+.About .row .content .icons-container .icons i{
     font-size: 2.5rem;
     color:var(--green);
 }
 
-.Services .row .content .icons-container .icons span{
+.About .row .content .icons-container .icons span{
     font-size: 1.5rem;
     color:var(--black);
 }
