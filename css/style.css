@@ -17,7 +17,6 @@
     transition: all .2s linear;
 }
 
-  
 
 html{
     font-size: 62.5%;
@@ -93,6 +92,21 @@ header .navbar a{
     padding:.5rem 1.5rem;
     color:var(--light-color);
 }
+
+
+header .language a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color:var(--light-color);
+}
+
+header .language a.active,
+header .language a:hover{
+    color:#fff;
+    background: var(--green);
+}
+
 
 header .navbar a.active,
 header .navbar a:hover{
@@ -542,6 +556,7 @@ header .icons #menu-bars{
     top:-110%;
     opacity:0;
 }
+
 
 
 
