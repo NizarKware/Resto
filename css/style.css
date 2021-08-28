@@ -319,15 +319,16 @@ header .icons #menu-bars{
 }
 
 .About .row .image{
-    flex:1 1 45rem;
+    flex:1 2 45rem;
 }
 
 .About .row .image img{ 
     width: 100%;
+    align-content: center;
 }
 
 .About .row .content{
-    flex:1 1 45rem;
+    flex:1 1 60rem;
 }
 
 .About .row .content h3{
@@ -556,40 +557,6 @@ header .icons #menu-bars{
     top:-110%;
     opacity:0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 
